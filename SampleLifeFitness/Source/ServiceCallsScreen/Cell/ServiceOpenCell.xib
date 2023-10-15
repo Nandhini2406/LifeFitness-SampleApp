@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ServiceOpenCell" id="gTV-IL-0wX" customClass="ServiceOpenCell" customModule="SampleLifeFitness" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="310"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="310"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MhnImg" translatesAutoresizingMaskIntoConstraints="NO" id="xwB-vO-4yI">
+                        <rect key="frame" x="10" y="10" width="180" height="129"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="plj-ib-zNn">
+                        <rect key="frame" x="10" y="149" width="90" height="30"/>
+                        <color key="backgroundColor" red="0.26133195237124696" green="0.7102434961928934" blue="0.35355158913814044" alpha="0.90202268835616439" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="wsM-SG-CcI"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                        <state key="normal" title="Open">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="openServiceBtn:" destination="gTV-IL-0wX" eventType="touchUpInside" id="BtX-zZ-CkQ"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="27/07/2022" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1us-pz-Yga">
+                        <rect key="frame" x="113" y="191.5" width="77" height="18"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dismantelling &amp;               reinstallation of the service" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwQ-8k-XJU">
+                        <rect key="frame" x="10" y="222" width="180" height="29"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0294" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gxz-of-h1e">
+                        <rect key="frame" x="10" y="189" width="48" height="23"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Parts Requested " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oRE-pO-KEL">
+                        <rect key="frame" x="10" y="266" width="180" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="None" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o8d-iE-74v">
+                        <rect key="frame" x="10" y="285.5" width="140" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="gwQ-8k-XJU" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="Bbw-Yv-KCT"/>
+                <constraint firstItem="gxz-of-h1e" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="CqL-AI-ivH"/>
+                <constraint firstItem="gwQ-8k-XJU" firstAttribute="top" secondItem="gxz-of-h1e" secondAttribute="bottom" constant="10" id="Ms0-es-o4f"/>
+                <constraint firstItem="plj-ib-zNn" firstAttribute="top" secondItem="xwB-vO-4yI" secondAttribute="bottom" constant="10" id="MzY-0n-6gy"/>
+                <constraint firstItem="xwB-vO-4yI" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="TXW-xH-uX0"/>
+                <constraint firstItem="gxz-of-h1e" firstAttribute="top" secondItem="plj-ib-zNn" secondAttribute="bottom" constant="10" id="WWk-aP-c0h"/>
+                <constraint firstAttribute="trailing" secondItem="o8d-iE-74v" secondAttribute="trailing" constant="50" id="a8z-o2-kMP"/>
+                <constraint firstAttribute="bottom" secondItem="o8d-iE-74v" secondAttribute="bottom" constant="10" id="aCl-em-Qlo"/>
+                <constraint firstItem="xwB-vO-4yI" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="cTx-TS-3Ro"/>
+                <constraint firstItem="o8d-iE-74v" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="dOw-uy-Pyr"/>
+                <constraint firstAttribute="trailing" secondItem="gwQ-8k-XJU" secondAttribute="trailing" constant="10" id="faj-iG-vHJ"/>
+                <constraint firstItem="gxz-of-h1e" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="g11-jC-Yro"/>
+                <constraint firstAttribute="trailing" secondItem="oRE-pO-KEL" secondAttribute="trailing" constant="10" id="hYz-8f-ceN"/>
+                <constraint firstAttribute="trailing" secondItem="plj-ib-zNn" secondAttribute="trailing" constant="100" id="jLt-cU-Fqa"/>
+                <constraint firstAttribute="trailing" secondItem="xwB-vO-4yI" secondAttribute="trailing" constant="10" id="kgR-nr-pGE"/>
+                <constraint firstItem="1us-pz-Yga" firstAttribute="trailing" secondItem="xwB-vO-4yI" secondAttribute="trailing" id="lmC-da-wD1"/>
+                <constraint firstItem="plj-ib-zNn" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="oUy-F2-e9b"/>
+                <constraint firstItem="oRE-pO-KEL" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="qwP-eC-wVA"/>
+                <constraint firstItem="oRE-pO-KEL" firstAttribute="top" secondItem="gwQ-8k-XJU" secondAttribute="bottom" constant="15" id="s8f-eF-5CU"/>
+                <constraint firstItem="o8d-iE-74v" firstAttribute="top" secondItem="oRE-pO-KEL" secondAttribute="bottom" constant="5" id="xQD-fu-aYs"/>
+                <constraint firstItem="1us-pz-Yga" firstAttribute="centerY" secondItem="gxz-of-h1e" secondAttribute="centerY" id="zyY-fR-Bnl"/>
+            </constraints>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="25"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                    <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                    <real key="value" value="1.5"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="102.89855072463769" y="98.4375"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="MhnImg" width="141" height="129"/>
+    </resources>
+</document>

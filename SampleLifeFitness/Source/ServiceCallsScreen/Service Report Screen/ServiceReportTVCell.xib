@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ServiceReportTVCell" id="KGk-i7-Jjw" customClass="ServiceReportTVCell" customModule="SampleLifeFitness" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="380" height="320"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="380" height="320"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cnq-xq-T6B">
+                        <rect key="frame" x="0.0" y="5" width="380" height="302"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Service Call" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ULP-fu-T8S">
+                                <rect key="frame" x="20" y="40" width="79" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23231212121ASsdsd" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3vF-XY-F0c">
+                                <rect key="frame" x="20" y="62" width="138" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SER/GV/FY22/9724" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UFz-PJ-sww">
+                                <rect key="frame" x="20" y="116" width="127" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Action Taken" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z6O-B4-awt">
+                                <rect key="frame" x="20" y="148" width="85" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sheik Mohanmed M" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fXI-FZ-eDB">
+                                <rect key="frame" x="20" y="261" width="151" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SLA-fb-nLI">
+                                <rect key="frame" x="20" y="170" width="340" height="54"/>
+                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut dui at erat facilisis commodo. Integer dapibus erat lorem, sit </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vQx-wT-aor">
+                                <rect key="frame" x="229" y="40" width="35" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="35" id="mnw-ur-rJa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Report No" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="slh-c5-vQH">
+                                <rect key="frame" x="20" y="94" width="67.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dwe-rv-SgE">
+                                <rect key="frame" x="250" y="15" width="110" height="25"/>
+                                <color key="backgroundColor" red="0.26133195240000001" green="0.71024349620000005" blue="0.35355158910000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="ffv-eo-gtl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                <state key="normal" title="Approved">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18-01-2023" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IbG-7a-gjL">
+                                <rect key="frame" x="229" y="62" width="79.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Service Engineer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lca-GH-kkn">
+                                <rect key="frame" x="20" y="239" width="109" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="lca-GH-kkn" firstAttribute="top" secondItem="SLA-fb-nLI" secondAttribute="bottom" constant="15" id="1QW-Sl-LmR"/>
+                            <constraint firstItem="3vF-XY-F0c" firstAttribute="top" secondItem="ULP-fu-T8S" secondAttribute="bottom" constant="5" id="1e3-wm-4Co"/>
+                            <constraint firstItem="ULP-fu-T8S" firstAttribute="top" secondItem="cnq-xq-T6B" secondAttribute="top" constant="40" id="2hB-Sw-OeZ"/>
+                            <constraint firstItem="fXI-FZ-eDB" firstAttribute="leading" secondItem="lca-GH-kkn" secondAttribute="leading" id="6P7-Ia-IoI"/>
+                            <constraint firstItem="SLA-fb-nLI" firstAttribute="top" secondItem="Z6O-B4-awt" secondAttribute="bottom" constant="5" id="7QE-nz-7db"/>
+                            <constraint firstItem="dwe-rv-SgE" firstAttribute="top" secondItem="cnq-xq-T6B" secondAttribute="top" constant="15" id="CFa-f5-hpt"/>
+                            <constraint firstItem="vQx-wT-aor" firstAttribute="leading" secondItem="ULP-fu-T8S" secondAttribute="trailing" constant="130" id="EED-Ee-oUe"/>
+                            <constraint firstItem="Z6O-B4-awt" firstAttribute="leading" secondItem="UFz-PJ-sww" secondAttribute="leading" id="FBG-HW-OYF"/>
+                            <constraint firstItem="IbG-7a-gjL" firstAttribute="centerY" secondItem="3vF-XY-F0c" secondAttribute="centerY" id="Ikj-yZ-2gq"/>
+                            <constraint firstItem="dwe-rv-SgE" firstAttribute="leading" secondItem="cnq-xq-T6B" secondAttribute="leading" constant="250" id="LLp-k6-GsB"/>
+                            <constraint firstAttribute="bottom" secondItem="fXI-FZ-eDB" secondAttribute="bottom" constant="20" id="NN9-IO-DRh"/>
+                            <constraint firstItem="slh-c5-vQH" firstAttribute="top" secondItem="3vF-XY-F0c" secondAttribute="bottom" constant="15" id="OZt-0a-SMv"/>
+                            <constraint firstItem="SLA-fb-nLI" firstAttribute="leading" secondItem="Z6O-B4-awt" secondAttribute="leading" id="OmF-wW-oXR"/>
+                            <constraint firstItem="fXI-FZ-eDB" firstAttribute="top" secondItem="lca-GH-kkn" secondAttribute="bottom" constant="5" id="WQQ-qI-pUR"/>
+                            <constraint firstItem="slh-c5-vQH" firstAttribute="leading" secondItem="3vF-XY-F0c" secondAttribute="leading" id="aHa-ii-BNS"/>
+                            <constraint firstItem="UFz-PJ-sww" firstAttribute="leading" secondItem="slh-c5-vQH" secondAttribute="leading" id="eyr-Ol-iwd"/>
+                            <constraint firstItem="Z6O-B4-awt" firstAttribute="top" secondItem="UFz-PJ-sww" secondAttribute="bottom" constant="15" id="iwO-Km-Cce"/>
+                            <constraint firstAttribute="trailing" secondItem="SLA-fb-nLI" secondAttribute="trailing" constant="20" id="kK5-sX-20T"/>
+                            <constraint firstItem="UFz-PJ-sww" firstAttribute="top" secondItem="slh-c5-vQH" secondAttribute="bottom" constant="5" id="nou-2x-khW"/>
+                            <constraint firstItem="3vF-XY-F0c" firstAttribute="leading" secondItem="ULP-fu-T8S" secondAttribute="leading" id="qQE-ZL-PFK"/>
+                            <constraint firstItem="vQx-wT-aor" firstAttribute="top" secondItem="cnq-xq-T6B" secondAttribute="top" constant="40" id="r7Z-7v-5yy"/>
+                            <constraint firstItem="vQx-wT-aor" firstAttribute="centerY" secondItem="ULP-fu-T8S" secondAttribute="centerY" id="rSs-TO-P2O"/>
+                            <constraint firstItem="ULP-fu-T8S" firstAttribute="leading" secondItem="cnq-xq-T6B" secondAttribute="leading" constant="20" id="u1K-M8-CtZ"/>
+                            <constraint firstAttribute="trailing" secondItem="dwe-rv-SgE" secondAttribute="trailing" constant="20" id="vMV-bf-KyI"/>
+                            <constraint firstItem="IbG-7a-gjL" firstAttribute="leading" secondItem="vQx-wT-aor" secondAttribute="leading" id="xI4-xj-ag9"/>
+                            <constraint firstItem="lca-GH-kkn" firstAttribute="leading" secondItem="SLA-fb-nLI" secondAttribute="leading" id="y2E-i3-yu5"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="cnq-xq-T6B" secondAttribute="trailing" id="0la-t7-KQd"/>
+                    <constraint firstItem="cnq-xq-T6B" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="OKk-mz-bFQ"/>
+                    <constraint firstAttribute="bottom" secondItem="cnq-xq-T6B" secondAttribute="bottom" constant="13" id="URd-Em-sM8"/>
+                    <constraint firstItem="cnq-xq-T6B" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="oZz-2l-xlt"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="dateLbl" destination="IbG-7a-gjL" id="i0Q-Zq-mcc"/>
+                <outlet property="reportNumberLbl" destination="UFz-PJ-sww" id="vFw-iW-LZb"/>
+                <outlet property="serviceCallNumberLbl" destination="3vF-XY-F0c" id="BAK-LI-Ky8"/>
+                <outlet property="serviceEngineerNameLbl" destination="fXI-FZ-eDB" id="Hsn-P9-Gb5"/>
+            </connections>
+            <point key="canvasLocation" x="-146.37681159420291" y="86.383928571428569"/>
+        </tableViewCell>
+    </objects>
+</document>
